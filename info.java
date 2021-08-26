@@ -31,6 +31,7 @@ public class info {
 			case 5:
 			{
 				System.out.println("Entering Doctor Module");
+				doctor.main(null);
 			}
 			case 6:
 			{
