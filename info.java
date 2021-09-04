@@ -19,14 +19,17 @@ public class info {
 			case 2:
 			{
 				System.out.println("Entering Surgicals Module");
+				surgical.main(null);
 			}
 			case 3:
 			{
 				System.out.println("Entering Diagnostic test Module");
+				diagnostic.main(null);
 			}
 			case 4:
 			{
 				System.out.println("Entering Referral Module");
+				referal.main(null);
 			}
 			case 5:
 			{
