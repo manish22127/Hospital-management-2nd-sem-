@@ -78,6 +78,7 @@ public class patient {
 					System.out.println("DOB: "+rs.getDate(2));
 					System.out.println("GENDER: "+rs.getString(3));
 					System.out.println("******************************");
+					con.close();
 				}
 			}
 			catch(Exception e) {
