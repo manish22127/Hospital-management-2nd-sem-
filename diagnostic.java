@@ -87,7 +87,28 @@ public class diagnostic {
 	
 
 public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
 	diagnostic d1 = new diagnostic();
-	//d1.add_order();
-	d1.add_result();
+	int i=1;
+	System.out.println("WELCOME TO DIAGNOSTIC PORTAL");
+	
+	while(i!=0) {
+		System.out.println("1.ADD ORDER \n2.UPDATE ORDER \n3.EXIT FROM PATIENT MODULE");
+		int ch = s.nextInt();
+		switch(ch) {
+		case 1:
+			d1.add_order();
+			break;
+		case 2:
+			d1.add_result();
+			break;
+		case 3:
+			System.out.println("THANKYOU");
+			i=0;
+			break;
+		default:
+			System.out.println("enter valid details \n");
+			}
+		}
+	
 }}

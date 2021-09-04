@@ -38,11 +38,7 @@ public class surgical extends patient{
 			System.out.println("*********************************");
 			con.close();
 		}
-		catch(com.mysql.cj.jdbc.exceptions.MysqlDataTruncation dob) {
-			System.out.println("please enter the date in YY-MM-DD foramt only");
-			add_patient();
-			
-		}
+		
 		catch(Exception e) {
 			e.printStackTrace();
 		}
